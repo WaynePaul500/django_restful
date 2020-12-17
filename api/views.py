@@ -3,7 +3,8 @@
 ViewSets 用于定义视图的展现形式
 """
 from django.shortcuts import render
-from django.contrib.auth.models import User, Group
+# from django.contrib.auth.models import User, Group
+from api.models import User, Group
 from rest_framework import viewsets
 from api.serializers import UserSerializer, GroupsSerializer
 

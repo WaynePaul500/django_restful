@@ -9,7 +9,8 @@ serializers用于定义api的表现形式  返回什么字段返回什么样的�
 自定义User和Groups表
 '''
 
-from django.contrib.auth.models import User, Group
+# from django.contrib.auth.models import User, Group
+from api.models import User, Group  # 换成自定义的模块（user和group）
 from rest_framework import serializers
 
 
