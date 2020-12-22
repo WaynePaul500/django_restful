@@ -1,11 +1,11 @@
 api_user:
 - id:  1
-  username: anks
-  email: sutune@163.com
+  username: Mark-01
+  email: Mark-01@163.com
   groups: http://127.0.0.1:8000/groups/1/
 - id:  2
-  username: kobbbbe
-  email: 51zxw@163.com
+  username: Mark-02
+  email: Mark-02@163.com
   groups: http://127.0.0.1:8000/groups/2/
 api_group:
 - id:  1
